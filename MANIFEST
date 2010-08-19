@@ -1,0 +1,14 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/App/Pod2Epub.pm
+
+bin/pod2epub
+
+t/00-load.t
+t/90_pod.t
+t/91_minimumversion.t
+t/92_meta.t
+
+META.yml                                 Module meta-data (added by MakeMaker)
