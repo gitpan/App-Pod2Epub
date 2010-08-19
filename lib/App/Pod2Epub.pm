@@ -17,7 +17,7 @@ use Pod::Simple::XHTML;
 use vars qw(@ISA $VERSION);
 
 @ISA     = 'Pod::Simple::XHTML';
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 ###############################################################################
 #
@@ -139,13 +139,13 @@ To create a simple filter to convert Pod to an XHTML format suitable for inclusi
 
 To convert Pod to ePub using the installed C<pod2epub> utility:
 
-    pod2epub SomeModule.pm -o some_module.epub
+    pod2epub some_module.pm -o some_module.epub
 
 =head1 USING THIS MODULE
 
 At the moment this module isn't very useful on its own. It is mainly in existence as a backend for C<pod2epub>.
 
-It provides a framework to convert Pod documents to an XHTML format suitable for inclusion in an ePub eBook. The ePub creation is handled by L<Ebook::EPUB> in C<pod2epub>. Future versions will move that functionality into this module so that it has a utility of its own.
+It provides a framework to convert Pod documents to an XHTML format suitable for inclusion in an ePub eBook. The ePub creation is handled by L<EBook::EPUB> in C<pod2epub>. Future versions will move that functionality into this module so that it has a utility of its own.
 
 =head1 METHODS
 
